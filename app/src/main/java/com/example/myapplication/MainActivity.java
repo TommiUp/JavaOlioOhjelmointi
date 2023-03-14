@@ -63,7 +63,7 @@ public class MainActivity extends AppCompatActivity {
         } else {
             double luku1 = Double.parseDouble(luku1Text.getText().toString());
             double luku2 = Double.parseDouble(luku2Text.getText().toString());
-            if (luku1 == 0 || luku2 == 0){
+            if (luku2 == 0){
                 tulos.setText("0 ei voi jakaa!");
             } else {
                 double jako = luku1 / luku2;
